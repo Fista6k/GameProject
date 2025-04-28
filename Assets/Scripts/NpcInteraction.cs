@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class NpcInteracition : MonoBehaviour
 {
-    [SerializeField] private GameObject questionMark;
+    [SerializeField] GameObject questionMark;
     public GameObject dialogUI;
     public TextMeshProUGUI dialogText;
 
@@ -16,11 +16,14 @@ public class NpcInteracition : MonoBehaviour
     public string[] dialogLines;
     private int currentLine = 0;
 
+    NPCWalk npcWalker;
+
     void Start()
     {
         questionMark.SetActive(false);
         dialogUI.SetActive(false);
 
+        npcWalker = GetComponent<NPCWalk>();
     }
 
     void Update()
@@ -32,6 +35,7 @@ public class NpcInteracition : MonoBehaviour
             {
                 dialogUI.SetActive(true);
                 ShowDialogLine();
+                StopNpcMovement();
             }
             else
             {
@@ -40,10 +44,6 @@ public class NpcInteracition : MonoBehaviour
             
         }
 
-        if (dialogUI.activeSelf)
-        {
-            dialogUI.transform.position = NpcTransform.position + new Vector3(0, 5, 0);
-        }
     }
 
     private void ShowDialogLine()
@@ -86,6 +86,23 @@ public class NpcInteracition : MonoBehaviour
             dialogUI.SetActive(false);
             playerInRange=false;
             currentLine = 0;
+            ResumeNpcMovement();
+        }
+    }
+
+    void ResumeNpcMovement()
+    {
+        if (npcWalker != null)
+        {
+            npcWalker.enabled = true;
+        }
+    }
+
+    void StopNpcMovement()
+    {
+        if (npcWalker != null)
+        {
+            npcWalker.enabled = false;
         }
     }
 }

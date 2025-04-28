@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: dee625fbaadfd15469581a3c59952c32
+guid: 58d73329259208a478adaec38732621f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1409830513793316728
-    second: question_0
-  - first:
-      213: -6450457308143233339
-    second: question_1
+      213: -3662369780155035480
+    second: WorkRoom_Dmitriy_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -103,45 +100,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: question_0
+      name: WorkRoom_Dmitriy_0
       rect:
         serializedVersion: 2
-        x: 171
-        y: 158
-        width: 186
-        height: 229
+        x: 0
+        y: 0
+        width: 1600
+        height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8773828f169b09310800000000000000
-      internalID: 1409830513793316728
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: question_1
-      rect:
-        serializedVersion: 2
-        x: 263
-        y: 69
-        width: 30
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5c6dc45114f5b76a0800000000000000
-      internalID: -6450457308143233339
+      spriteID: 8a0dbb9c616ac2dc0800000000000000
+      internalID: -3662369780155035480
       vertices: []
       indices: 
       edges: []
@@ -150,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 619974ae270ea1543b85ffcd74edce5a
     internalID: 0
     vertices: []
     indices: 
@@ -159,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      WorkRoom_Dmitriy_0: -3662369780155035480
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
