@@ -1168,8 +1168,8 @@ Transform:
   m_GameObject: {fileID: 1632135001}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.05, y: -0.01, z: 0}
-  m_LocalScale: {x: 2.3701553, y: 2.1000023, z: 1}
+  m_LocalPosition: {x: 0.0173, y: 0.04, z: 0}
+  m_LocalScale: {x: 0.28439182, y: 0.28448436, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2141282995}
@@ -1218,12 +1218,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: -6081546532181847564, guid: c341d1bb66b9fb241baf18a9af23966a, type: 3}
+  m_Sprite: {fileID: 8257441330996525142, guid: 37b3aa6593abec84e8973440f959223f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.37, y: 0.48}
+  m_Size: {x: 3.58, y: 4.42}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -1481,7 +1481,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f58ed9fa82080e14e971bad062110ca3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: 
+  sceneToLoad: cafeLocation
 --- !u!61 &1832164211
 BoxCollider2D:
   m_ObjectHideFlags: 0
