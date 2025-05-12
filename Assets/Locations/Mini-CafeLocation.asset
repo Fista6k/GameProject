@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78d4592eb5accb646ad25cb8fa2422f4, type: 3}
+  m_Name: Mini-CafeLocation
+  m_EditorClassIdentifier: 
+  locationName: Mini-Cafe
+  previewImage: {fileID: -3238580073797464396, guid: 4de722d111ca2954eb5a5727826f4eea, type: 3}
+  sceneName: cafeLocation
+  description: 

@@ -18,7 +18,6 @@ public class NPCWalk : MonoBehaviour
         spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         transform.Translate(Vector2.right * direction * moveSpeed * Time.deltaTime);

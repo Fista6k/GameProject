@@ -1,13 +1,13 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class ToNewLocation : MonoBehaviour
+public class NewSceneButton : MonoBehaviour
 {
     [SerializeField] private LocationData location;
 
-    private void OnTriggerEnter2D(Collider2D other)
+    public void ChangeScenebyButton()
     {
-        if (other.CompareTag("Player"))
+        if (location != null)
         {
             SceneManager.LoadScene(location.sceneName);
         }
