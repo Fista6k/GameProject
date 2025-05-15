@@ -176,7 +176,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u041C\u0438\u043D\u0438 \u041A\u0430\u0444\u0435"
+  m_text: "\u041A\u0430\u0431\u0438\u043D\u0435\u0442 \u0414\u043C\u0438\u0442\u0440\u0438\u044F"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -203,8 +203,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 50
-  m_fontSizeBase: 50
+  m_fontSize: 45
+  m_fontSizeBase: 45
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -371,7 +371,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 9117214879279342594, guid: f291236948f3d8742adc5ac4a99908f3, type: 3}
+  m_Sprite: {fileID: 2344137790941558953, guid: 910a7fc7b9aaf8a4c87d7e92ac4872e4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -401,7 +401,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d425b6bbfa558a4287a9ba1ab618377, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  location: {fileID: 11400000, guid: 4656df9ab38e0064a960e859f1c2029b, type: 2}
+  location: {fileID: 11400000, guid: d766be14347dcb5418dbcb7b421c0a1c, type: 2}
 --- !u!1 &222176762
 GameObject:
   m_ObjectHideFlags: 0
@@ -518,7 +518,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -3238580073797464396, guid: 4de722d111ca2954eb5a5727826f4eea, type: 3}
+  m_Sprite: {fileID: -3662369780155035480, guid: 58d73329259208a478adaec38732621f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -548,7 +548,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d425b6bbfa558a4287a9ba1ab618377, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  location: {fileID: 11400000, guid: 8a16dd563118f2e4da690aed97212690, type: 2}
+  location: {fileID: 11400000, guid: e06c23619f285db49896ca9b3086535a, type: 2}
 --- !u!1 &281450515
 GameObject:
   m_ObjectHideFlags: 0
@@ -606,7 +606,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u041A\u043E\u043C\u043D\u0430\u0442\u0430 \u041E\u0431\u0441\u0443\u0436\u0434\u0435\u043D\u0438\u044F"
+  m_text: "\u041A\u0430\u0431\u0438\u043D\u0435\u0442 \u0410\u043B\u0435\u043A\u0441\u0430"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -633,8 +633,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 35
-  m_fontSizeBase: 35
+  m_fontSize: 45
+  m_fontSizeBase: 45
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1037,7 +1037,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   darkBackground: {fileID: 2057221883}
   popupWindow: {fileID: 698102350}
-  fadeDuration: 0.6
+  fadeDuration: 0.7
+  openButton: {fileID: 0}
+  closeButton: {fileID: 0}
 --- !u!114 &1412834204
 MonoBehaviour:
   m_ObjectHideFlags: 0

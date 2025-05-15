@@ -200,7 +200,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 230807558}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 827742471}
+        m_TargetAssemblyTypeName: LetterScript, Assembly-CSharp
+        m_MethodName: RightClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &230807558
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -320,7 +332,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 493682136}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 827742471}
+        m_TargetAssemblyTypeName: LetterScript, Assembly-CSharp
+        m_MethodName: WrongClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &493682136
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -458,6 +482,7 @@ GameObject:
   - component: {fileID: 827742469}
   - component: {fileID: 827742468}
   - component: {fileID: 827742467}
+  - component: {fileID: 827742471}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -583,6 +608,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &827742471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 827742466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fab20c9f85c1c940afb5c49f2306d32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  letter: {fileID: 11400000, guid: 2c95da8536a9b7741af133da5ed0bfce, type: 2}
 --- !u!1 &951251879
 GameObject:
   m_ObjectHideFlags: 0

@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 78d4592eb5accb646ad25cb8fa2422f4, type: 3}
-  m_Name: Mini-CafeLocation
+  m_Name: DmitriyCabinet
   m_EditorClassIdentifier: 
   locationName: DmitriyCabinet
   previewImage: {fileID: -3662369780155035480, guid: 58d73329259208a478adaec38732621f, type: 3}

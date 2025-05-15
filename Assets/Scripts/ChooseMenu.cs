@@ -22,6 +22,7 @@ public class PopupManager : MonoBehaviour
         openButton.gameObject.SetActive(false);
         closeButton.gameObject.SetActive(true);
         popupWindow.SetActive(true);
+        darkBackground.gameObject.SetActive(true);
         FadeBackground(fadeDuration);
     }
 

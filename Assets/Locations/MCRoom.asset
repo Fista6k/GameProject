@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 78d4592eb5accb646ad25cb8fa2422f4, type: 3}
-  m_Name: Mini-CafeLocation
+  m_Name: MCRoom
   m_EditorClassIdentifier: 
-  locationName: DmitriyCabinet
-  previewImage: {fileID: -3662369780155035480, guid: 58d73329259208a478adaec38732621f, type: 3}
-  sceneName: DmitriyCabinet
+  locationName: MCRoom
+  previewImage: {fileID: 2344137790941558953, guid: 910a7fc7b9aaf8a4c87d7e92ac4872e4, type: 3}
+  sceneName: MCRoom
